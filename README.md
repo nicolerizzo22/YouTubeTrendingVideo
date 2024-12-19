@@ -2,9 +2,10 @@
 
 ## YouTube Trending Video Data Collection & Analysis with Python
 
-In this project, I’ll take you through the task of YouTube data collection and analysis using Python in order to analyze the top trending videos and find what makes a video trend on YouTube (results reflect query date 12/18/24). 
+In this project, we collect YouTube video data using Python for the top 200 trending videos and analyze to find out what makes a video trend on YouTube (results reflect query date 12/18/24). 
 
-I used the YouTube Data API to fetch details of the top 200 trending videos in the US, iterating through the API's paginated responses to collect **video details** such as:
+I used the YouTube Data API to fetch details of the top 200 trending videos in the US, 
+iterating through the API's paginated responses to collect **video details** such as:
 - title
 - description
 - published date
@@ -19,8 +20,10 @@ And various **engagement metrics** such as:
 - likes
 - comments
 
-The script will compile this information into a list, and then convert it into a pandas DataFrame.  We'll save the data to a CSV file named `trending_videos.csv`, allowing analysis of trends and patterns in the collected video data.
+The script will compile this information into a list, and then convert it into a pandas DataFrame. \
+We'll save the data to a CSV file named `trending_videos.csv`, allowing analysis of trends and patterns in the collected video data.
 
+### Below are the project objectives with their associated outcomes:
 
 | Objective | Outcome |
 | ---------------------------------------                                   | --------------------------------------------------------------------------------------- |
@@ -44,10 +47,13 @@ The script will compile this information into a list, and then convert it into a
 - Bar Chart
 
 ### Conclusion:
+![trend_image3](https://github.com/user-attachments/assets/32c1ba3c-301f-493e-bf80-941b516a0c45)  
 
-####  ![trend_image3](https://github.com/user-attachments/assets/32c1ba3c-301f-493e-bf80-941b516a0c45)  Here are some key takeaways on what makes a video trend on YouTube:
-
+#### Key takeaways on what makes a video trend on YouTube:
 
 - Encourage viewers to like and comment on videos to boost engagement metrics.
 - Aim to create shorter videos (under 5 minutes) for higher engagement, especially for categories like Music and Entertainment.
 - Schedule video uploads around peak times (4 PM — 5 PM) to maximize initial views and engagement.
+
+
+Thank you for taking your time to read this! ✌️
